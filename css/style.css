@@ -153,12 +153,15 @@ background-color:#dfd3ea
 
 @media only screen and (max-width:750px) {
  .timeline{
-  max-width: 70%;
-  position: relative;
-
+  max-width: 100% !important;
+ }
+ .showmobile{
+   display: initial !important;
  }
 }
-
+.showmobile{
+  display: none;
+}
 
 /**/
 @import url('https://fonts.googleapis.com/css?family=Chivo:300,300i,400,400i,700,700i,900,900i|Saira+Extra+Condensed:100,200,300,400,500,600,700,800|Saira:100,200,300,400,500,600,700,800');
