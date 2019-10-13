@@ -26,13 +26,13 @@
 }
 
 #genDesc{
-    background-image: radial-gradient(circle, #372738, #171717, #171717);
+    background-image:  radial-gradient(circle, #372738, #022020, #1f1420);
       padding-top: 5%;
       padding-bottom: 5%;
 }
 #genInfo{
 
-  color:rgba(174, 142, 203, 1);
+  color: #b6a1c4;
 }
 .pink{
   color:rgba(174, 142, 203, 1);
@@ -115,25 +115,34 @@ nav{
   border: 1px solid rgba(174, 142, 203, 1);
 
 }
+
+.bluecard{
+  background-color:#fff0;
+  border: 1px solid #00f5f5;
+
+}
+
 .lightcard{
-  color:black;
-  background-color:#dfd3ea;
+  color:white;
+  background-color:#5b9fb2;
   margin-left: 10%;
   margin-right: 10%;
 }
-.page-link{
-background-color:#dfd3ea
+pagintion{
+
 }
 .page-link{
-  color:black;
+  background-color:#5b9fb2;
+  color:white;
 }
+
 .speech-bubble {
 	position: relative;
-	background: #daa0d2;
+	background:#5b9fb2;
   border-radius: .4em;
   padding: 10%;
   margin-top:10%;
-  color:#3d3a3a;
+  color:white;
 }
 
 .speech-bubble:after {
@@ -145,12 +154,20 @@ background-color:#dfd3ea
 	width: 0;
 	height: 0;
 	border: 0.625em solid transparent;
-	border-right-color: #daa0d2;
+	border-right-color: #5b9fb2;
 	border-left: 0;
 	margin-top: -0.625em;
 	margin-left: -0.625em;
 }
+.navmar{
+  padding: 0px;
+}
 
+@media only screen and (max-width:990px) {
+  .navmar{
+    padding: auto !important;
+  }
+}
 @media only screen and (max-width:750px) {
  .timeline{
   max-width: 100% !important;
@@ -177,7 +194,7 @@ background-color:#dfd3ea
 /* Base */
 /* Timeline */
 .timeline {
-  border-left: 4px solid rgba(174, 142, 203, 1);
+  border-left: 4px solid #b6a1c4;
   border-bottom-right-radius: 4px;
   border-top-right-radius: 4px;
   background: rgba(255, 255, 255, 0.03);
@@ -235,7 +252,7 @@ background-color:#dfd3ea
   font-family: 'Saira', sans-serif;
 }
 .timeline .event:after {
-  box-shadow: 0 0 0 4px rgba(174, 142, 203, 1);
+  box-shadow: 0 0 0 4px #b6a1c4;
   left: -57.85px;
   background: #313534;
   border-radius: 50%;
